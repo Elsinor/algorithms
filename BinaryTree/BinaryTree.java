@@ -53,6 +53,9 @@ public static void main(String[] args) {
 
         System.out.println(preOrderVisit);
 
+        //TO DO:
+        // visita in postordine e in ordine
+
 
         if (preorder.equals(preOrderVisit)) {
                 System.out.println("Test ok.");

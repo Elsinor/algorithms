@@ -1,8 +1,6 @@
 public class BinaryTreeNode<T> {
 private T label;
-private BinaryTreeNode<T> parent;
-private BinaryTreeNode<T> leftChild;
-private BinaryTreeNode<T> rightChild;
+private BinaryTreeNode<T> parent, leftChild, rightChild;
 
 public BinaryTreeNode(T label) {
         this.label = label;
@@ -61,11 +59,11 @@ public boolean hasRight() {
 //////////////
 //////////////
 public BinaryTreeNode<T> getLeft() {
-  return this.leftChild;
+        return this.leftChild;
 }
 
 public BinaryTreeNode<T> getRight() {
-  return this.rightChild;
+        return this.rightChild;
 }
 
 /**
@@ -83,7 +81,7 @@ public void removeRight() {
 }
 
 public T visit() {
-  return label;
+        return label;
 }
 
 public static void main(String[] args) {
